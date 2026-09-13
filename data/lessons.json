@@ -1,0 +1,590 @@
+[
+  {
+    "id": "linear-equations",
+    "subject": "Algebra",
+    "title": "Solving Linear Equations",
+    "level": "Foundations",
+    "time": "18 min",
+    "img": "algebra.svg",
+    "kind": "linear",
+    "formula": "3x + 5 = 20",
+    "why": "An equation is a balance: applying the same operation to both sides preserves equality. Undoing operations in reverse order isolates the unknown without changing the solution set.",
+    "example": [
+      [
+        "Start with the equation",
+        "3x + 5 = 20"
+      ],
+      [
+        "Subtract 5 from both sides",
+        "3x = 15"
+      ],
+      [
+        "Divide both sides by 3",
+        "x = 5"
+      ],
+      [
+        "Check",
+        "3(5)+5=20 \u2713"
+      ]
+    ],
+    "qs": [
+      [
+        "Solve 2x + 3 = 11",
+        [
+          "x = 4",
+          "x = 7",
+          "x = 14"
+        ],
+        0
+      ],
+      [
+        "Why subtract 3 from both sides?",
+        [
+          "To preserve equality",
+          "To make x negative",
+          "To change the equation"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "systems",
+    "subject": "Algebra",
+    "title": "Systems of Linear Equations",
+    "level": "Intermediate",
+    "time": "24 min",
+    "img": "algebra.svg",
+    "kind": "linear",
+    "formula": "y = 2x + 1 and y = -x + 7",
+    "why": "A solution to a system must satisfy every equation at the same time. On a graph, that means the solution is the point shared by both lines \u2014 their intersection.",
+    "example": [
+      [
+        "Set the two expressions for y equal",
+        "2x + 1 = -x + 7"
+      ],
+      [
+        "Collect x terms",
+        "3x = 6"
+      ],
+      [
+        "Solve for x",
+        "x = 2"
+      ],
+      [
+        "Substitute",
+        "y = 5, so the solution is (2, 5)"
+      ]
+    ],
+    "qs": [
+      [
+        "What does an intersection represent?",
+        [
+          "A common solution",
+          "A slope only",
+          "A y-intercept only"
+        ],
+        0
+      ],
+      [
+        "Parallel distinct lines have\u2026",
+        [
+          "No solution",
+          "One solution",
+          "Infinitely many solutions"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "quadratics",
+    "subject": "Algebra",
+    "title": "Quadratic Functions",
+    "level": "Intermediate",
+    "time": "22 min",
+    "img": "functions.svg",
+    "kind": "quadratic",
+    "formula": "f(x) = x\u00b2 - 4x + 3",
+    "why": "A quadratic has constant second differences because the change in its slope is constant. Completing the square reveals the vertex by rewriting the same expression in a translated square form.",
+    "example": [
+      [
+        "Factor the quadratic",
+        "x\u00b2 - 4x + 3 = (x-1)(x-3)"
+      ],
+      [
+        "Find zeros",
+        "x = 1 and x = 3"
+      ],
+      [
+        "Find axis of symmetry",
+        "x = (1+3)/2 = 2"
+      ],
+      [
+        "Evaluate at x=2",
+        "f(2) = -1, so vertex is (2,-1)"
+      ]
+    ],
+    "qs": [
+      [
+        "How many real zeros can a quadratic have at most?",
+        [
+          "2",
+          "3",
+          "4"
+        ],
+        0
+      ],
+      [
+        "The graph of y=x\u00b2 is a\u2026",
+        [
+          "Parabola",
+          "Circle",
+          "Line"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "triangles",
+    "subject": "Geometry",
+    "title": "Triangle Geometry",
+    "level": "Foundations",
+    "time": "20 min",
+    "img": "geometry.svg",
+    "kind": "linear",
+    "formula": "A + B + C = 180\u00b0",
+    "why": "A line through one vertex parallel to the opposite side creates alternate interior angles. Those three angles form a straight line, proving that the interior angles of a Euclidean triangle total 180\u00b0.",
+    "example": [
+      [
+        "Known angles",
+        "A = 48\u00b0, B = 67\u00b0"
+      ],
+      [
+        "Use the angle sum",
+        "48 + 67 + C = 180"
+      ],
+      [
+        "Combine",
+        "115 + C = 180"
+      ],
+      [
+        "Solve",
+        "C = 65\u00b0"
+      ]
+    ],
+    "qs": [
+      [
+        "Triangle angle sum?",
+        [
+          "180\u00b0",
+          "90\u00b0",
+          "360\u00b0"
+        ],
+        0
+      ],
+      [
+        "An isosceles triangle has\u2026",
+        [
+          "Two equal sides",
+          "Three right angles",
+          "No equal angles"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "pythagorean",
+    "subject": "Geometry",
+    "title": "Pythagorean Theorem",
+    "level": "Intermediate",
+    "time": "21 min",
+    "img": "geometry.svg",
+    "kind": "linear",
+    "formula": "a\u00b2 + b\u00b2 = c\u00b2",
+    "why": "For a right triangle, areas of squares built on the two legs together equal the area of the square on the hypotenuse. Rearrangement proofs show this without relying on numerical examples.",
+    "example": [
+      [
+        "Legs",
+        "a = 6, b = 8"
+      ],
+      [
+        "Substitute",
+        "6\u00b2 + 8\u00b2 = c\u00b2"
+      ],
+      [
+        "Simplify",
+        "36 + 64 = 100"
+      ],
+      [
+        "Square root",
+        "c = 10"
+      ]
+    ],
+    "qs": [
+      [
+        "Which side is c?",
+        [
+          "Hypotenuse",
+          "Shortest side",
+          "Any side"
+        ],
+        0
+      ],
+      [
+        "If legs are 3 and 4, c is\u2026",
+        [
+          "5",
+          "6",
+          "7"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "transformations",
+    "subject": "Geometry",
+    "title": "Transformations & Symmetry",
+    "level": "Intermediate",
+    "time": "19 min",
+    "img": "geometry.svg",
+    "kind": "linear",
+    "formula": "(x,y) \u2192 (-y,x) for 90\u00b0 CCW",
+    "why": "Rigid transformations preserve distances and angle measures. Coordinate rules are algebraic descriptions of geometric motion around a fixed origin or axis.",
+    "example": [
+      [
+        "Start point",
+        "P = (3, 1)"
+      ],
+      [
+        "Apply 90\u00b0 CCW rule",
+        "(x,y) \u2192 (-y,x)"
+      ],
+      [
+        "Substitute",
+        "(3,1) \u2192 (-1,3)"
+      ],
+      [
+        "Check distance from origin",
+        "\u221a10 before and after"
+      ]
+    ],
+    "qs": [
+      [
+        "A translation preserves\u2026",
+        [
+          "Length",
+          "Only color",
+          "Area but not length"
+        ],
+        0
+      ],
+      [
+        "Reflection in y-axis maps (x,y) to\u2026",
+        [
+          "(-x,y)",
+          "(x,-y)",
+          "(-x,-y)"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "function-basics",
+    "subject": "Functions",
+    "title": "Function Fundamentals",
+    "level": "Foundations",
+    "time": "17 min",
+    "img": "functions.svg",
+    "kind": "linear",
+    "formula": "f(x) = 2x - 3",
+    "why": "A function assigns exactly one output to each permitted input. This makes the output predictable from the input and allows the relationship to be represented by rules, tables, graphs and mappings.",
+    "example": [
+      [
+        "Rule",
+        "f(x)=2x-3"
+      ],
+      [
+        "Choose input",
+        "x=4"
+      ],
+      [
+        "Substitute",
+        "f(4)=2(4)-3"
+      ],
+      [
+        "Evaluate",
+        "f(4)=5"
+      ]
+    ],
+    "qs": [
+      [
+        "A function gives each input\u2026",
+        [
+          "Exactly one output",
+          "Two outputs always",
+          "No output"
+        ],
+        0
+      ],
+      [
+        "If f(x)=x+2, f(3)=",
+        [
+          "5",
+          "1",
+          "6"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "absolute-value",
+    "subject": "Functions",
+    "title": "Absolute Value Functions",
+    "level": "Intermediate",
+    "time": "18 min",
+    "img": "functions.svg",
+    "kind": "abs",
+    "formula": "f(x) = |x|",
+    "why": "Absolute value measures distance from zero, so opposite inputs have the same output. That symmetry creates the characteristic V-shaped graph.",
+    "example": [
+      [
+        "Evaluate positive input",
+        "|4|=4"
+      ],
+      [
+        "Evaluate negative input",
+        "|-4|=4"
+      ],
+      [
+        "Describe symmetry",
+        "f(-x)=f(x)"
+      ],
+      [
+        "Vertex",
+        "(0,0)"
+      ]
+    ],
+    "qs": [
+      [
+        "|-7| =",
+        [
+          "7",
+          "-7",
+          "0"
+        ],
+        0
+      ],
+      [
+        "The basic graph is\u2026",
+        [
+          "V-shaped",
+          "Circular",
+          "A horizontal line"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "trigonometric-functions",
+    "subject": "Functions",
+    "title": "Trigonometric Functions",
+    "level": "Advanced",
+    "time": "26 min",
+    "img": "functions.svg",
+    "kind": "sine",
+    "formula": "y = sin x",
+    "why": "On the unit circle, sine is the vertical coordinate of a rotating point. Repeated rotations repeat the coordinate values, producing periodic wave behavior.",
+    "example": [
+      [
+        "Unit circle angle",
+        "\u03b8 = 30\u00b0"
+      ],
+      [
+        "Sine is y-coordinate",
+        "sin 30\u00b0 = 1/2"
+      ],
+      [
+        "Period",
+        "sin(\u03b8+360\u00b0)=sin \u03b8"
+      ],
+      [
+        "Amplitude",
+        "Basic sine amplitude = 1"
+      ]
+    ],
+    "qs": [
+      [
+        "Basic sine period in degrees?",
+        [
+          "360\u00b0",
+          "180\u00b0",
+          "90\u00b0"
+        ],
+        0
+      ],
+      [
+        "sin 30\u00b0 =",
+        [
+          "1/2",
+          "1",
+          "0"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "descriptive-statistics",
+    "subject": "Statistics",
+    "title": "Descriptive Statistics",
+    "level": "Foundations",
+    "time": "20 min",
+    "img": "statistics.svg",
+    "kind": "linear",
+    "formula": "mean = \u03a3x / n",
+    "why": "A mean redistributes the total equally among all observations. Median instead identifies the central ordered position, making it less sensitive to extreme values.",
+    "example": [
+      [
+        "Data",
+        "2, 4, 4, 10"
+      ],
+      [
+        "Sum",
+        "20"
+      ],
+      [
+        "Count",
+        "4"
+      ],
+      [
+        "Mean",
+        "20/4 = 5"
+      ]
+    ],
+    "qs": [
+      [
+        "Mean of 2,4,6?",
+        [
+          "4",
+          "6",
+          "12"
+        ],
+        0
+      ],
+      [
+        "Which is resistant to outliers?",
+        [
+          "Median",
+          "Mean",
+          "Range only"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "probability",
+    "subject": "Statistics",
+    "title": "Probability Models",
+    "level": "Intermediate",
+    "time": "21 min",
+    "img": "statistics.svg",
+    "kind": "linear",
+    "formula": "P(event) = favorable / total",
+    "why": "For equally likely outcomes, probability is the fraction of the sample space belonging to an event. Probabilities range from 0 (impossible) to 1 (certain).",
+    "example": [
+      [
+        "Fair die outcomes",
+        "{1,2,3,4,5,6}"
+      ],
+      [
+        "Even outcomes",
+        "{2,4,6}"
+      ],
+      [
+        "Probability",
+        "3/6"
+      ],
+      [
+        "Simplify",
+        "P(even)=1/2"
+      ]
+    ],
+    "qs": [
+      [
+        "Probability must be between\u2026",
+        [
+          "0 and 1",
+          "1 and 10",
+          "-10 and 10"
+        ],
+        0
+      ],
+      [
+        "P(head) for fair coin?",
+        [
+          "1/2",
+          "1/3",
+          "1"
+        ],
+        0
+      ]
+    ]
+  },
+  {
+    "id": "derivatives",
+    "subject": "Calculus",
+    "title": "Introduction to Derivatives",
+    "level": "Advanced",
+    "time": "28 min",
+    "img": "calculus.svg",
+    "kind": "derivative",
+    "formula": "f'(x) = lim[h\u21920] (f(x+h)-f(x))/h",
+    "why": "The derivative is the limit of average rates of change over smaller and smaller intervals. When the limit exists, it gives the instantaneous rate of change and the slope of the tangent line.",
+    "example": [
+      [
+        "Function",
+        "f(x)=x\u00b2"
+      ],
+      [
+        "Difference quotient",
+        "[(x+h)\u00b2-x\u00b2]/h"
+      ],
+      [
+        "Simplify",
+        "[2xh+h\u00b2]/h = 2x+h"
+      ],
+      [
+        "Take h\u21920",
+        "f'(x)=2x"
+      ]
+    ],
+    "qs": [
+      [
+        "A derivative measures\u2026",
+        [
+          "Instantaneous rate of change",
+          "Area only",
+          "A probability"
+        ],
+        0
+      ],
+      [
+        "Derivative of x\u00b2?",
+        [
+          "2x",
+          "x",
+          "2"
+        ],
+        0
+      ]
+    ]
+  }
+]
